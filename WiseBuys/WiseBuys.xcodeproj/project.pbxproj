@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D107AD962998418900738625 /* WiseBuysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D107AD952998418900738625 /* WiseBuysApp.swift */; };
+		D107AD982998418900738625 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D107AD972998418900738625 /* ContentView.swift */; };
+		D107AD9A2998418A00738625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D107AD992998418A00738625 /* Assets.xcassets */; };
+		D107AD9E2998418A00738625 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D107AD9D2998418A00738625 /* Preview Assets.xcassets */; };
+		D107ADA82998418B00738625 /* WiseBuysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D107ADA72998418B00738625 /* WiseBuysTests.swift */; };
+		D107ADB22998418B00738625 /* WiseBuysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D107ADB12998418B00738625 /* WiseBuysUITests.swift */; };
+		D107ADB42998418B00738625 /* WiseBuysUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D107ADB32998418B00738625 /* WiseBuysUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D107ADA42998418B00738625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D107AD8A2998418900738625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D107AD912998418900738625;
+			remoteInfo = WiseBuys;
+		};
+		D107ADAE2998418B00738625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D107AD8A2998418900738625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D107AD912998418900738625;
+			remoteInfo = WiseBuys;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D107AD922998418900738625 /* WiseBuys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiseBuys.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D107AD952998418900738625 /* WiseBuysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiseBuysApp.swift; sourceTree = "<group>"; };
+		D107AD972998418900738625 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D107AD992998418A00738625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D107AD9B2998418A00738625 /* WiseBuys.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WiseBuys.entitlements; sourceTree = "<group>"; };
+		D107AD9D2998418A00738625 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D107ADA32998418B00738625 /* WiseBuysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiseBuysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D107ADA72998418B00738625 /* WiseBuysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiseBuysTests.swift; sourceTree = "<group>"; };
+		D107ADAD2998418B00738625 /* WiseBuysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiseBuysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D107ADB12998418B00738625 /* WiseBuysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiseBuysUITests.swift; sourceTree = "<group>"; };
+		D107ADB32998418B00738625 /* WiseBuysUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiseBuysUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D107AD8F2998418900738625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D107ADA02998418B00738625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D107ADAA2998418B00738625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D107AD892998418900738625 = {
+			isa = PBXGroup;
+			children = (
+				D107AD942998418900738625 /* WiseBuys */,
+				D107ADA62998418B00738625 /* WiseBuysTests */,
+				D107ADB02998418B00738625 /* WiseBuysUITests */,
+				D107AD932998418900738625 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D107AD932998418900738625 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D107AD922998418900738625 /* WiseBuys.app */,
+				D107ADA32998418B00738625 /* WiseBuysTests.xctest */,
+				D107ADAD2998418B00738625 /* WiseBuysUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D107AD942998418900738625 /* WiseBuys */ = {
+			isa = PBXGroup;
+			children = (
+				D107AD952998418900738625 /* WiseBuysApp.swift */,
+				D107AD972998418900738625 /* ContentView.swift */,
+				D107AD992998418A00738625 /* Assets.xcassets */,
+				D107AD9B2998418A00738625 /* WiseBuys.entitlements */,
+				D107AD9C2998418A00738625 /* Preview Content */,
+			);
+			path = WiseBuys;
+			sourceTree = "<group>";
+		};
+		D107AD9C2998418A00738625 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D107AD9D2998418A00738625 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D107ADA62998418B00738625 /* WiseBuysTests */ = {
+			isa = PBXGroup;
+			children = (
+				D107ADA72998418B00738625 /* WiseBuysTests.swift */,
+			);
+			path = WiseBuysTests;
+			sourceTree = "<group>";
+		};
+		D107ADB02998418B00738625 /* WiseBuysUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D107ADB12998418B00738625 /* WiseBuysUITests.swift */,
+				D107ADB32998418B00738625 /* WiseBuysUITestsLaunchTests.swift */,
+			);
+			path = WiseBuysUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D107AD912998418900738625 /* WiseBuys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D107ADB72998418B00738625 /* Build configuration list for PBXNativeTarget "WiseBuys" */;
+			buildPhases = (
+				D107AD8E2998418900738625 /* Sources */,
+				D107AD8F2998418900738625 /* Frameworks */,
+				D107AD902998418900738625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WiseBuys;
+			productName = WiseBuys;
+			productReference = D107AD922998418900738625 /* WiseBuys.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D107ADA22998418B00738625 /* WiseBuysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D107ADBA2998418B00738625 /* Build configuration list for PBXNativeTarget "WiseBuysTests" */;
+			buildPhases = (
+				D107AD9F2998418B00738625 /* Sources */,
+				D107ADA02998418B00738625 /* Frameworks */,
+				D107ADA12998418B00738625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D107ADA52998418B00738625 /* PBXTargetDependency */,
+			);
+			name = WiseBuysTests;
+			productName = WiseBuysTests;
+			productReference = D107ADA32998418B00738625 /* WiseBuysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D107ADAC2998418B00738625 /* WiseBuysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D107ADBD2998418B00738625 /* Build configuration list for PBXNativeTarget "WiseBuysUITests" */;
+			buildPhases = (
+				D107ADA92998418B00738625 /* Sources */,
+				D107ADAA2998418B00738625 /* Frameworks */,
+				D107ADAB2998418B00738625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D107ADAF2998418B00738625 /* PBXTargetDependency */,
+			);
+			name = WiseBuysUITests;
+			productName = WiseBuysUITests;
+			productReference = D107ADAD2998418B00738625 /* WiseBuysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D107AD8A2998418900738625 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D107AD912998418900738625 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D107ADA22998418B00738625 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D107AD912998418900738625;
+					};
+					D107ADAC2998418B00738625 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D107AD912998418900738625;
+					};
+				};
+			};
+			buildConfigurationList = D107AD8D2998418900738625 /* Build configuration list for PBXProject "WiseBuys" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D107AD892998418900738625;
+			productRefGroup = D107AD932998418900738625 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D107AD912998418900738625 /* WiseBuys */,
+				D107ADA22998418B00738625 /* WiseBuysTests */,
+				D107ADAC2998418B00738625 /* WiseBuysUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D107AD902998418900738625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D107AD9E2998418A00738625 /* Preview Assets.xcassets in Resources */,
+				D107AD9A2998418A00738625 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D107ADA12998418B00738625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D107ADAB2998418B00738625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D107AD8E2998418900738625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D107AD982998418900738625 /* ContentView.swift in Sources */,
+				D107AD962998418900738625 /* WiseBuysApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D107AD9F2998418B00738625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D107ADA82998418B00738625 /* WiseBuysTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D107ADA92998418B00738625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D107ADB42998418B00738625 /* WiseBuysUITestsLaunchTests.swift in Sources */,
+				D107ADB22998418B00738625 /* WiseBuysUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D107ADA52998418B00738625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D107AD912998418900738625 /* WiseBuys */;
+			targetProxy = D107ADA42998418B00738625 /* PBXContainerItemProxy */;
+		};
+		D107ADAF2998418B00738625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D107AD912998418900738625 /* WiseBuys */;
+			targetProxy = D107ADAE2998418B00738625 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D107ADB52998418B00738625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D107ADB62998418B00738625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D107ADB82998418B00738625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WiseBuys/WiseBuys.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WiseBuys/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppTeamCarolina.WiseBuys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D107ADB92998418B00738625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WiseBuys/WiseBuys.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WiseBuys/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppTeamCarolina.WiseBuys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D107ADBB2998418B00738625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppTeamCarolina.WiseBuysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiseBuys.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WiseBuys";
+			};
+			name = Debug;
+		};
+		D107ADBC2998418B00738625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppTeamCarolina.WiseBuysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiseBuys.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WiseBuys";
+			};
+			name = Release;
+		};
+		D107ADBE2998418B00738625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppTeamCarolina.WiseBuysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WiseBuys;
+			};
+			name = Debug;
+		};
+		D107ADBF2998418B00738625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppTeamCarolina.WiseBuysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WiseBuys;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D107AD8D2998418900738625 /* Build configuration list for PBXProject "WiseBuys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D107ADB52998418B00738625 /* Debug */,
+				D107ADB62998418B00738625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D107ADB72998418B00738625 /* Build configuration list for PBXNativeTarget "WiseBuys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D107ADB82998418B00738625 /* Debug */,
+				D107ADB92998418B00738625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D107ADBA2998418B00738625 /* Build configuration list for PBXNativeTarget "WiseBuysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D107ADBB2998418B00738625 /* Debug */,
+				D107ADBC2998418B00738625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D107ADBD2998418B00738625 /* Build configuration list for PBXNativeTarget "WiseBuysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D107ADBE2998418B00738625 /* Debug */,
+				D107ADBF2998418B00738625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D107AD8A2998418900738625 /* Project object */;
+}
