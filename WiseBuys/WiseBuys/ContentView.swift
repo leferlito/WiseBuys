@@ -8,14 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    let font: String = "Yellowtail-Regular"
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack{
+            VStack {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+                Text("Hello, world!")
+                    .font(.custom(font, size: 30))
+            }
+            .padding()
+            .navigationTitle("Wise Buys")
+            
         }
-        .padding()
+        
     }
 }
 
