@@ -11,9 +11,11 @@ struct ContentView: View {
     let font: String = "Yellowtail-Regular"
     var body: some View {
         NavigationStack{
-            HomeView()
-            
+//            HomeView()
+            StoreDetailsView(storeName: "Aldi", groceries: ["Cheese, shredded, Mozarella", "Cheese, sliced, deli", "Hot Dog Buns"])
         }
+            
+        
         
     }
 }
