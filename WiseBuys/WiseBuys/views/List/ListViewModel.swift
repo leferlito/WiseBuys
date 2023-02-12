@@ -16,7 +16,7 @@ class ListViewModel: ObservableObject {
     ]
     
     
-    @Published var selected_products: [String] = ["test"]
+    @Published var selected_products: [String] = []
     
     
     func addItem(item: String){
