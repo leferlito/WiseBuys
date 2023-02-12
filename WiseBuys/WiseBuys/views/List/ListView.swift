@@ -12,11 +12,12 @@ struct ListView: View {
     @StateObject private var vm = ListViewModel()
     @State var bring_up_search_bar = false
     
-    @State var item = "hen"
+    @State var item = ""
     
     var body: some View {
         VStack{
-            Text("\(item)")
+            Text("**MyList**")
+                .font(.largeTitle)
             List{
                 ForEach(vm.selected_products, id: \.self){ item in
                     Text(item)
@@ -27,7 +28,7 @@ struct ListView: View {
                 bring_up_search_bar = true
             }
             Button("Checkout"){
-                print("checkout")
+                //NavigationLink(CheckoutView())
             }
         }
         .sheet(isPresented: $bring_up_search_bar){
