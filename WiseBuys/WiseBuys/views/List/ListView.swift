@@ -91,16 +91,12 @@ struct ListView: View {
                     .background(Color("midBlue"))
                     .cornerRadius(12)
                     .padding(.vertical,20)
-                    
-                    Button {
-                        print("checkout")
-                    } label: {
-                        Text("Checkout")
+                    NavigationLink(destination: CheckoutView(products: $vm.selected_products), label:
+                                    { Text("Checkout")
                             .foregroundColor(Color(.black))
                             .frame(width: 325, height: 45, alignment: .center)
                             .background(Color("midBlue"))
-                            .cornerRadius(12)
-                    }
+                            .cornerRadius(12)})
                 }
                 .sheet(isPresented: $bring_up_search_bar){
                     SearchView(item: $item, stayOpen: $bring_up_search_bar)
