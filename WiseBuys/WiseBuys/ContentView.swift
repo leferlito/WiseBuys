@@ -10,11 +10,7 @@ import SwiftUI
 struct ContentView: View {
     let font: String = "Yellowtail-Regular"
     var body: some View {
-        NavigationStack{
-            HomeView()
-            
-        }
-        
+        HomeView()
     }
 }
 
