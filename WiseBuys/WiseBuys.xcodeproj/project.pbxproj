@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		3C469882299855D40082DDD6 /* Yellowtail-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C469881299855D40082DDD6 /* Yellowtail-Regular.ttf */; };
 		3C469885299857010082DDD6 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C469884299857010082DDD6 /* Font.swift */; };
-		3C46988729986D920082DDD6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C46988629986D920082DDD6 /* Home.swift */; };
-		3C46988D299873EE0082DDD6 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C46988C299873EE0082DDD6 /* TabView.swift */; };
+
+		BA1BF3362998881A00FEF378 /* StoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1BF3352998881A00FEF378 /* StoreData.swift */; };
 		D107AD962998418900738625 /* WiseBuysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D107AD952998418900738625 /* WiseBuysApp.swift */; };
 		D107AD982998418900738625 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D107AD972998418900738625 /* ContentView.swift */; };
 		D107AD9A2998418A00738625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D107AD992998418A00738625 /* Assets.xcassets */; };
@@ -47,8 +47,8 @@
 		3C469881299855D40082DDD6 /* Yellowtail-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellowtail-Regular.ttf"; sourceTree = "<group>"; };
 		3C469883299855EF0082DDD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C469884299857010082DDD6 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
-		3C46988629986D920082DDD6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		3C46988C299873EE0082DDD6 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+
+		BA1BF3352998881A00FEF378 /* StoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreData.swift; sourceTree = "<group>"; };
 		D107AD922998418900738625 /* WiseBuys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiseBuys.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D107AD952998418900738625 /* WiseBuysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiseBuysApp.swift; sourceTree = "<group>"; };
 		D107AD972998418900738625 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -129,6 +129,7 @@
 				D107AD992998418A00738625 /* Assets.xcassets */,
 				D107AD9B2998418A00738625 /* WiseBuys.entitlements */,
 				D107AD9C2998418A00738625 /* Preview Content */,
+				BA1BF3352998881A00FEF378 /* StoreData.swift */,
 			);
 			path = WiseBuys;
 			sourceTree = "<group>";
@@ -318,6 +319,7 @@
 			files = (
 				3C46988D299873EE0082DDD6 /* TabView.swift in Sources */,
 				D1A1BD8029984D2700DFBCDF /* CheckoutViewModel.swift in Sources */,
+				BA1BF3362998881A00FEF378 /* StoreData.swift in Sources */,
 				D1A1BD7829984CB700DFBCDF /* ListView.swift in Sources */,
 				3C46988729986D920082DDD6 /* Home.swift in Sources */,
 				D1A1BD7B29984CF700DFBCDF /* SearchViewModel.swift in Sources */,
