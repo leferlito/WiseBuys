@@ -27,18 +27,16 @@ struct Home: View {
                 Image("WiseBuysLogo")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 450, height: 450)
+                    .frame(width: 450, height: 380)
                 ZStack(){
                     RoundedRectangle(cornerRadius: 20)
                         .frame(width: 345, height: 90, alignment: .center)
                         .foregroundColor(Color("blueAccent"))
-                
                     
                 }
+                Spacer()
                 
-                //  }
-                //            }
-                //        }
+                
             }
         }
         
