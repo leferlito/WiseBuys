@@ -8,8 +8,27 @@
 import SwiftUI
 
 struct ListView: View {
+    @StateObject private var vm = ListViewModel()
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Text("My List")
+                .font(.largeTitle)
+            ScrollView {
+                List{
+                    ForEach(vm.listItems, id: \.self){ item in
+                        Text(item.name)
+                    }
+                }
+            }
+//            Button("Add Item"){
+//                NavigationLink(destination: SearchView()){
+//                }
+//            }
+//            Button("Checkout"){
+//                NavigationLink(destination: SearchView()){
+//                }
+//            }
+        }
     }
 }
 

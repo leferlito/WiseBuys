@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+class ListViewModel: ObservableObject {
+    @Published var listItems: [ListItem] = []
+    
+}
