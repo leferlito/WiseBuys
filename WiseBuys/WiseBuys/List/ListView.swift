@@ -8,26 +8,34 @@
 import SwiftUI
 
 struct ListView: View {
+    
     @StateObject private var vm = ListViewModel()
+    @State var bring_up_search_bar = false
+    
+    @State var item = "hen"
+    
     var body: some View {
         VStack{
-            Text("My List")
-                .font(.largeTitle)
-            ScrollView {
-                List{
-                    ForEach(vm.listItems, id: \.self){ item in
-                        Text(item.name)
-                    }
+            Text("\(item)")
+            List{
+                ForEach(vm.selected_products, id: \.self){ item in
+                    Text(item)
                 }
             }
-//            Button("Add Item"){
-//                NavigationLink(destination: SearchView()){
-//                }
-//            }
-//            Button("Checkout"){
-//                NavigationLink(destination: SearchView()){
-//                }
-//            }
+            
+            Button("Add Item"){
+                bring_up_search_bar = true
+            }
+            Button("Checkout"){
+                print("checkout")
+            }
+        }
+        .sheet(isPresented: $bring_up_search_bar){
+            SearchView(item: $item, stayOpen: $bring_up_search_bar)
+        }
+        .onChange(of: item){ item_name in
+            print("add item")
+            vm.addItem(item: item_name)
         }
     }
 }
