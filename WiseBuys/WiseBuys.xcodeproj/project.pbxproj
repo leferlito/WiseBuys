@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3C469882299855D40082DDD6 /* Yellowtail-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C469881299855D40082DDD6 /* Yellowtail-Regular.ttf */; };
 		3C469885299857010082DDD6 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C469884299857010082DDD6 /* Font.swift */; };
+		A42ED1F82998BF8800724F84 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42ED1F72998BF8800724F84 /* CheckoutView.swift */; };
+		A42ED1FA2998BF9800724F84 /* CheckoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42ED1F92998BF9800724F84 /* CheckoutViewModel.swift */; };
 		BA1BF3362998881A00FEF378 /* StoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1BF3352998881A00FEF378 /* StoreData.swift */; };
 		BA1BF33C2998A2B000FEF378 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1BF33B2998A2B000FEF378 /* HomeView.swift */; };
 		BA1BF33E2998A3C400FEF378 /* YesevaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA1BF33D2998A3C400FEF378 /* YesevaOne-Regular.ttf */; };
@@ -23,8 +25,6 @@
 		D1A1BD7829984CB700DFBCDF /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A1BD7729984CB700DFBCDF /* ListView.swift */; };
 		D1A1BD7B29984CF700DFBCDF /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A1BD7A29984CF700DFBCDF /* SearchViewModel.swift */; };
 		D1A1BD7D29984D0800DFBCDF /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A1BD7C29984D0800DFBCDF /* SearchView.swift */; };
-		D1A1BD8029984D2700DFBCDF /* CheckoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A1BD7F29984D2700DFBCDF /* CheckoutViewModel.swift */; };
-		D1A1BD8229984D3200DFBCDF /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A1BD8129984D3200DFBCDF /* CheckoutView.swift */; };
 		D1A1BD8C29987F0900DFBCDF /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A1BD8B29987F0900DFBCDF /* ListItem.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +49,8 @@
 		3C469881299855D40082DDD6 /* Yellowtail-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellowtail-Regular.ttf"; sourceTree = "<group>"; };
 		3C469883299855EF0082DDD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C469884299857010082DDD6 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		A42ED1F72998BF8800724F84 /* CheckoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckoutView.swift; path = WiseBuys/Checkout/CheckoutView.swift; sourceTree = SOURCE_ROOT; };
+		A42ED1F92998BF9800724F84 /* CheckoutViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckoutViewModel.swift; path = WiseBuys/Checkout/CheckoutViewModel.swift; sourceTree = SOURCE_ROOT; };
 		BA1BF3352998881A00FEF378 /* StoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreData.swift; sourceTree = "<group>"; };
 		BA1BF33B2998A2B000FEF378 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		BA1BF33D2998A3C400FEF378 /* YesevaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "YesevaOne-Regular.ttf"; sourceTree = "<group>"; };
@@ -67,8 +69,6 @@
 		D1A1BD7729984CB700DFBCDF /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		D1A1BD7A29984CF700DFBCDF /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		D1A1BD7C29984D0800DFBCDF /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
-		D1A1BD7F29984D2700DFBCDF /* CheckoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewModel.swift; sourceTree = "<group>"; };
-		D1A1BD8129984D3200DFBCDF /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		D1A1BD8B29987F0900DFBCDF /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -201,8 +201,8 @@
 		D1A1BD7E29984D0E00DFBCDF /* Checkout */ = {
 			isa = PBXGroup;
 			children = (
-				D1A1BD7F29984D2700DFBCDF /* CheckoutViewModel.swift */,
-				D1A1BD8129984D3200DFBCDF /* CheckoutView.swift */,
+				A42ED1F72998BF8800724F84 /* CheckoutView.swift */,
+				A42ED1F92998BF9800724F84 /* CheckoutViewModel.swift */,
 			);
 			path = Checkout;
 			sourceTree = "<group>";
@@ -340,16 +340,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1A1BD8C29987F0900DFBCDF /* ListItem.swift in Sources */,
-				D1A1BD8029984D2700DFBCDF /* CheckoutViewModel.swift in Sources */,
 				BA1BF3362998881A00FEF378 /* StoreData.swift in Sources */,
 				D1A1BD7829984CB700DFBCDF /* ListView.swift in Sources */,
 				D1A1BD7B29984CF700DFBCDF /* SearchViewModel.swift in Sources */,
 				D107AD982998418900738625 /* ContentView.swift in Sources */,
 				D107AD962998418900738625 /* WiseBuysApp.swift in Sources */,
+				A42ED1F82998BF8800724F84 /* CheckoutView.swift in Sources */,
+				A42ED1FA2998BF9800724F84 /* CheckoutViewModel.swift in Sources */,
 				3C469885299857010082DDD6 /* Font.swift in Sources */,
 				D1A1BD7D29984D0800DFBCDF /* SearchView.swift in Sources */,
 				BA1BF33C2998A2B000FEF378 /* HomeView.swift in Sources */,
-				D1A1BD8229984D3200DFBCDF /* CheckoutView.swift in Sources */,
 				D1A1BD7629984CA800DFBCDF /* ListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
