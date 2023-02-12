@@ -49,9 +49,32 @@ struct StoreDetailsView: View {
             Color("blueBackground")
                 .ignoresSafeArea()
             VStack(spacing: 10){
-                Text(storeName)
-                    .font(.custom(font2, size: 55))
-                    .foregroundColor(Color("darkGreen"))
+                if storeName == .Aldi {
+                    Text("Aldi")
+                        .font(.custom(font2, size: 55))
+                        .foregroundColor(Color("darkGreen"))
+                }
+                if storeName == .Kroger {
+                    Text("Kroger")
+                        .font(.custom(font2, size: 55))
+                        .foregroundColor(Color("darkGreen"))
+                }
+                if storeName == .TraderJoes {
+                    Text("Trader Joe's")
+                        .font(.custom(font2, size: 55))
+                        .foregroundColor(Color("darkGreen"))
+                }
+                if storeName == .Publix {
+                    Text("Publix")
+                        .font(.custom(font2, size: 55))
+                        .foregroundColor(Color("darkGreen"))
+                }
+                if storeName == .Walmart {
+                    Text("Walmart")
+                        .font(.custom(font2, size: 55))
+                        .foregroundColor(Color("darkGreen"))
+                }
+                
                 ZStack{
                     RoundedRectangle(cornerRadius: 20)
                         .foregroundColor(Color("brightBlue"))
@@ -140,7 +163,7 @@ struct StoreDetailsView: View {
 
 struct StoreDetailsView_Previews: PreviewProvider {
     static var previews: some View {
-        StoreDetailsView(storeName: "Aldi", groceries: ["Cheese, shredded, Mozarella", "Cheese, sliced, deli", "Hot Dog Buns", "Cheese, shredded, Mozarella", "Cheese, sliced, deli", "Hot Dog Buns", "Cheese, shredded, Mozarella", "Cheese, sliced, deli", "Hot Dog Buns", "Cheese, shredded, Mozarella", "Cheese, sliced, deli", "Hot Dog Buns"])
+        StoreDetailsView(storeName: .Aldi, groceries: ["Cheese, shredded, Mozarella", "Cheese, sliced, deli", "Hot Dog Buns", "Cheese, shredded, Mozarella", "Cheese, sliced, deli", "Hot Dog Buns", "Cheese, shredded, Mozarella", "Cheese, sliced, deli", "Hot Dog Buns", "Cheese, shredded, Mozarella", "Cheese, sliced, deli", "Hot Dog Buns"])
     }
 }
 

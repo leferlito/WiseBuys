@@ -55,40 +55,44 @@ struct CheckoutView: View {
                         HStack{
                             if vm.stores.count > 0{
                                 if vm.stores[index] == .Aldi {
-                                    NavigationLink(destination: StoreDetailsView, label: { Text("Aldi")
+                                    NavigationLink(destination: StoreDetailsView(storeName: .Aldi, groceries: products), label: { Text("Aldi")
                                         .foregroundColor(Color.white)})
                                 }
-                                else if vm.stores[index] == .Kroger {
+                                else if vm.stores[index] == .Kroger {NavigationLink(destination: StoreDetailsView(storeName: .Kroger, groceries: products), label : {
                                     Text("Kroger")
-                                        .foregroundColor(Color.white)
-                                    
+                                    .foregroundColor(Color.white)})
                                 }
                                 else if vm.stores[index] == .TraderJoes {
-                                    Text("Trader Joes")
-                                        .foregroundColor(Color.white)
-                                    
+                                    NavigationLink(destination: StoreDetailsView(storeName: .TraderJoes, groceries: products), label : {
+                                        Text("Trader Joes")
+                                        .foregroundColor(Color.white)})
                                 }
                                 else if vm.stores[index] == .Publix {
-                                    Text("Publix")
-                                        .foregroundColor(Color.white)
-                                    
+                                    NavigationLink(destination: StoreDetailsView(storeName: .Publix, groceries: products), label : {
+                                        Text("Publix")
+                                        .foregroundColor(Color.white)})
                                 }
+                                
                                 else if vm.stores[index] == .Walmart {
-                                    Text("Walmart")
-                                        .foregroundColor(Color.white)
-                                    
+                                    NavigationLink(destination: StoreDetailsView(storeName: .Walmart, groceries: products), label : {
+                                        Text("Walmart")
+                                        .foregroundColor(Color.white)})
                                 }
                             }
-                            
                             Spacer()
                             Text("$\(vm.sorted_costs[index],specifier: "%.2f")")
                                 .foregroundColor(Color.white)
+                            
+                            
+                            
                         }.padding(.horizontal)
+                        
+                    }
                         
                     }.padding(.horizontal)
                         .frame(height: 55)
                 }
-            }
+            
             Spacer()
             }
         .background(Color.blueBackground)
