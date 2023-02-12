@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3C469882299855D40082DDD6 /* Yellowtail-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C469881299855D40082DDD6 /* Yellowtail-Regular.ttf */; };
+		3C9008A629989B78008E8196 /* YesevaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C9008A529989B78008E8196 /* YesevaOne-Regular.ttf */; };
 		3CF97C66299898C300607524 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF97C65299898C300607524 /* HomeView.swift */; };
 		BA1BF3362998881A00FEF378 /* StoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1BF3352998881A00FEF378 /* StoreData.swift */; };
 		D107AD962998418900738625 /* WiseBuysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D107AD952998418900738625 /* WiseBuysApp.swift */; };
@@ -47,6 +48,7 @@
 /* Begin PBXFileReference section */
 		3C469881299855D40082DDD6 /* Yellowtail-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellowtail-Regular.ttf"; sourceTree = "<group>"; };
 		3C469883299855EF0082DDD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C9008A529989B78008E8196 /* YesevaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "YesevaOne-Regular.ttf"; sourceTree = "<group>"; };
 		3CF97C65299898C300607524 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		BA1BF3352998881A00FEF378 /* StoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreData.swift; sourceTree = "<group>"; };
 		D107AD922998418900738625 /* WiseBuys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiseBuys.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +123,7 @@
 				3C469883299855EF0082DDD6 /* Info.plist */,
 				D107AD972998418900738625 /* ContentView.swift */,
 				3C469881299855D40082DDD6 /* Yellowtail-Regular.ttf */,
+				3C9008A529989B78008E8196 /* YesevaOne-Regular.ttf */,
 				3CF97C65299898C300607524 /* HomeView.swift */,
 				D1A1BD7429984C8800DFBCDF /* List */,
 				D1A1BD7929984CE500DFBCDF /* Search */,
@@ -295,6 +298,7 @@
 				D107AD9E2998418A00738625 /* Preview Assets.xcassets in Resources */,
 				3C469882299855D40082DDD6 /* Yellowtail-Regular.ttf in Resources */,
 				D107AD9A2998418A00738625 /* Assets.xcassets in Resources */,
+				3C9008A629989B78008E8196 /* YesevaOne-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -5,6 +5,9 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>Yellowtail-Regular.ttf</string>
+		<string>YesevaOne-Regular.ttf</string>
 	</array>
+	<key>CFBundleIdentifier</key>
+	<string></string>
 </dict>
 </plist>
