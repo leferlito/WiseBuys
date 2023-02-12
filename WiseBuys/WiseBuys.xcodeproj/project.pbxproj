@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3C469882299855D40082DDD6 /* Yellowtail-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C469881299855D40082DDD6 /* Yellowtail-Regular.ttf */; };
 		3C469885299857010082DDD6 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C469884299857010082DDD6 /* Font.swift */; };
+		3C9008B02998CD10008E8196 /* StoreDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9008AF2998CD10008E8196 /* StoreDetailsView.swift */; };
 		A42ED1F82998BF8800724F84 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42ED1F72998BF8800724F84 /* CheckoutView.swift */; };
 		A42ED1FA2998BF9800724F84 /* CheckoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42ED1F92998BF9800724F84 /* CheckoutViewModel.swift */; };
 		BA1BF3362998881A00FEF378 /* StoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1BF3352998881A00FEF378 /* StoreData.swift */; };
@@ -49,6 +50,7 @@
 		3C469881299855D40082DDD6 /* Yellowtail-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellowtail-Regular.ttf"; sourceTree = "<group>"; };
 		3C469883299855EF0082DDD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C469884299857010082DDD6 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		3C9008AF2998CD10008E8196 /* StoreDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailsView.swift; sourceTree = "<group>"; };
 		A42ED1F72998BF8800724F84 /* CheckoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckoutView.swift; path = WiseBuys/Checkout/CheckoutView.swift; sourceTree = SOURCE_ROOT; };
 		A42ED1F92998BF9800724F84 /* CheckoutViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckoutViewModel.swift; path = WiseBuys/Checkout/CheckoutViewModel.swift; sourceTree = SOURCE_ROOT; };
 		BA1BF3352998881A00FEF378 /* StoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreData.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				BA1BF33B2998A2B000FEF378 /* HomeView.swift */,
+				3C9008AF2998CD10008E8196 /* StoreDetailsView.swift */,
 				D1A1BD7E29984D0E00DFBCDF /* Checkout */,
 				D1A1BD7929984CE500DFBCDF /* Search */,
 				D1A1BD7429984C8800DFBCDF /* List */,
@@ -340,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1A1BD8C29987F0900DFBCDF /* ListItem.swift in Sources */,
+				3C9008B02998CD10008E8196 /* StoreDetailsView.swift in Sources */,
 				BA1BF3362998881A00FEF378 /* StoreData.swift in Sources */,
 				D1A1BD7829984CB700DFBCDF /* ListView.swift in Sources */,
 				D1A1BD7B29984CF700DFBCDF /* SearchViewModel.swift in Sources */,
