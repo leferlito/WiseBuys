@@ -11,5 +11,5 @@ struct ListItem: Hashable, Identifiable {
     var name: String
     var price: String
     var store: String
-    var id: UUID
+    let id: UUID = UUID()
 }
