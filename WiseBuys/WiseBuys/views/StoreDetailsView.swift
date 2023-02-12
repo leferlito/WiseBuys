@@ -9,33 +9,33 @@ import SwiftUI
 struct StoreDetailsView: View {
     let font: String = "Yellowtail-Regular"
     let font2: String = "YesevaOne-Regular"
-    var storeName: String
+    var storeName: store
     var groceries: [String]
     
     var listItems: [[String]]{
         var final: [[String]] = []
 
-            if storeName == "Aldi"{
+        if storeName == .Aldi{
                 for item in groceries{
                     final.append([item, Aldi[item]![0]])
                 }
             }
-            else if storeName == "Kroger"{
+        else if storeName == .Kroger{
                 for item in groceries{
                     final.append([item, Kroger[item]![0]])
                 }
             }
-            else if storeName == "TraderJoes"{
+        else if storeName == .TraderJoes{
                 for item in groceries{
                     final.append([item, TraderJoes[item]![0]])
                 }
             }
-            else if storeName == "Publix"{
+        else if storeName == .Publix{
                 for item in groceries{
                     final.append([item, Publix[item]![0]])
                 }
             }
-            else if storeName == "Walmart"{
+        else if storeName == .Walmart{
                 for item in groceries{
                     final.append([item, Walmart[item]![0]])
                 }
