@@ -16,13 +16,13 @@ struct CheckoutView: View {
     var body: some View {
         VStack{
             Spacer()
-//                .frame(height: 43)
-                Text("Checkout")
-                .font(.system(size: 60).weight(.bold))
-                    .foregroundColor(.darkGreen)
+                .frame(height: 20)
+            Text("Checkout")
+            .font(.system(size: 60).weight(.bold))
+                .foregroundColor(.darkGreen)
             
             Spacer()
-//                .frame(height: 65)
+                .frame(height: 65)
             HStack {
                 Text("Edit")
                     .foregroundColor(Color.white)
@@ -32,44 +32,62 @@ struct CheckoutView: View {
                     .cornerRadius(20)
                 Spacer()
             }
-            .padding(.horizontal, 39)
+            .padding(.horizontal, 25)
+//            Spacer()
+            .padding(.vertical, 30)
+            HStack {
+                Text("Stores")
+                    .padding(.leading)
+                Spacer()
+                Text("Prices")
+                    .padding(.trailing)
+            }.foregroundColor(Color.darkGreen)
+                .frame(width: 355, height: 43)
+                .background(Color.lightGreen)
+                .cornerRadius(20)
             Spacer()
-                RoundedRectangle(cornerRadius: 20, style: .continuous)
-                    .fill(Color("lightGreen"))
-                    .frame(height: 335)
-                
-                ForEach(0..<4, id: \.self){ index in
+                .frame(height: 40)
+            VStack(spacing: 15) {
+                ForEach(0..<5, id: \.self){ index in
                     ZStack (alignment: .leading){
                         RoundedRectangle(cornerRadius: 20, style: .continuous)
                             .fill(Color.darkGreen)
                         HStack{
                             if vm.stores.count > 0{
                                 if vm.stores[index] == .Aldi {
-                                    Text("Aldi")
+                                    NavigationLink(destination: StoreDetailsView, label: { Text("Aldi")
+                                        .foregroundColor(Color.white)})
                                 }
                                 else if vm.stores[index] == .Kroger {
                                     Text("Kroger")
+                                        .foregroundColor(Color.white)
                                     
                                 }
                                 else if vm.stores[index] == .TraderJoes {
                                     Text("Trader Joes")
+                                        .foregroundColor(Color.white)
                                     
                                 }
                                 else if vm.stores[index] == .Publix {
                                     Text("Publix")
+                                        .foregroundColor(Color.white)
                                     
                                 }
                                 else if vm.stores[index] == .Walmart {
                                     Text("Walmart")
+                                        .foregroundColor(Color.white)
                                     
                                 }
                             }
-                        
+                            
                             Spacer()
-                            Text("\(vm.sorted_costs[index])")
+                            Text("$\(vm.sorted_costs[index],specifier: "%.2f")")
+                                .foregroundColor(Color.white)
                         }.padding(.horizontal)
                         
-                }.padding(.horizontal)
+                    }.padding(.horizontal)
+                        .frame(height: 55)
+                }
             }
             Spacer()
             }
