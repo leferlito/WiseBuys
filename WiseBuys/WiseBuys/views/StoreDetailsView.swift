@@ -108,17 +108,29 @@ struct StoreDetailsView: View {
                             
                         }
                     })
-                    NavigationLink(destination: ListView(), label: {
-                        ZStack{
-                            RoundedRectangle(cornerRadius: 20)
-                                .frame(height: 90)
-                                .foregroundColor(Color("blueAccent"))
-                                .padding(.trailing, 20)
-                            Text("Directions")
-                                .font(.custom(font, size: 30))
-                                .foregroundColor(.white)
-                        }
-                    })
+//                    NavigationLink(destination: ListView(), label: {
+//                        ZStack{
+//                            RoundedRectangle(cornerRadius: 20)
+//                                .frame(height: 90)
+//                                .foregroundColor(Color("blueAccent"))
+//                                .padding(.trailing, 20)
+//                            Text("Directions")
+//                                .font(.custom(font, size: 30))
+//                                .foregroundColor(.white)
+//                        }
+//                    })
+                    Button(action: {
+                                UIApplication.shared.open(URL(string: "https://www.google.com/maps/")!)
+                            }) {
+                                Text("Directions")
+                                    .font(.custom(font, size: 30))
+                                    .foregroundColor(.white)
+                            }
+                            .frame(width: 165, height: 90)
+                            .background(Color("blueAccent"))
+                                   .foregroundColor(.white)
+                                   .cornerRadius(20)
+                                   .padding(.trailing, 20)
                     }
                 }
             }
