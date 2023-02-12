@@ -105,6 +105,7 @@ struct StoreDetailsView: View {
                             Text("Done")
                                 .font(.custom(font, size: 30))
                                 .foregroundColor(.white)
+                                .padding(.leading, 15)
                             
                         }
                     })
@@ -117,6 +118,7 @@ struct StoreDetailsView: View {
                             Text("Directions")
                                 .font(.custom(font, size: 30))
                                 .foregroundColor(.white)
+                                .padding(.trailing, 22)
                         }
                     })
                     }
@@ -127,7 +129,7 @@ struct StoreDetailsView: View {
 
 struct StoreDetailsView_Previews: PreviewProvider {
     static var previews: some View {
-        StoreDetailsView(storeName: "Aldi", groceries: ["Cheese, shredded, Mozarella", "Cheese, sliced, deli", "Hot Dog Buns"])
+        StoreDetailsView(storeName: "Aldi", groceries: ["Cheese, shredded, Mozarella", "Cheese, sliced, deli", "Hot Dog Buns", "Cheese, shredded, Mozarella", "Cheese, sliced, deli", "Hot Dog Buns", "Cheese, shredded, Mozarella", "Cheese, sliced, deli", "Hot Dog Buns", "Cheese, shredded, Mozarella", "Cheese, sliced, deli", "Hot Dog Buns"])
     }
 }
 
